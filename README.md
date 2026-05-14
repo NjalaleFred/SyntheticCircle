@@ -24,6 +24,17 @@ Additionally, **Principal Component Analysis (PCA)** is used for visualization a
 
 ---
 
+## 🚀 Technologies Used
+
+* Python 🐍
+* NumPy
+* Pandas
+* Scikit-learn
+* Matplotlib
+* Seaborn
+
+---
+
 ## 📊 Dataset
 
 The dataset consists of:
@@ -94,7 +105,7 @@ The dataset is suitable for clustering because it contains multiple natural grou
 | ------------ | ---------- | ----- | ------ | ----- | ----- |
 | K-Means      | ~0.41      | ~0.76 | ~10224 | ~0.06 | ~0.46 |
 | Hierarchical | ~0.33      | ~0.89 | ~7660  | ~0.06 | ~0.46 |
-| DBSCAN       | ~0.5603    | ~0.67 | ~23902| ~0.95 | ~0.98 |
+| DBSCAN       | ~0.56      | ~0.67 | ~23902 | ~0.95 | ~0.98 |
 
 ---
 
@@ -107,34 +118,6 @@ The dataset is suitable for clustering because it contains multiple natural grou
 
 ---
 
-## 📉 Visualizations
-
-The project includes:
-
-* Cluster plots in original feature space
-* Cluster visualization in PCA space
-* Elbow method plot (K-Means)
-* Silhouette analysis plot
-* DBSCAN k-distance graph
-
----
-
-## 🚀 Technologies Used
-
-* Python 🐍
-* NumPy
-* Pandas
-* Scikit-learn
-* Matplotlib
-* Seaborn
-
----
-
-## 📌 Conclusion
-
-DBSCAN is the most suitable algorithm for this dataset due to its ability to detect non-linear cluster structures and handle noise effectively. K-Means and Hierarchical clustering perform adequately in terms of internal structure but fail to capture true underlying labels.
-
----
 
 ## 📈 Future Improvements
 
@@ -142,5 +125,11 @@ DBSCAN is the most suitable algorithm for this dataset due to its ability to det
 * Test on higher-dimensional real-world datasets
 * Use ensemble clustering techniques
 * Explore alternative distance metrics (cosine, Manhattan, Mahalanobis)
+
+---
+
+## 📌 Conclusion
+
+DBSCAN is the most suitable algorithm for this dataset due to its ability to detect non-linear cluster structures and handle noise effectively. K-Means and Hierarchical clustering perform adequately in terms of internal structure but fail to capture true underlying labels.
 
 ---
