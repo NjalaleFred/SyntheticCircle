@@ -1,4 +1,4 @@
-# SyntheticCircle Clustering Analysis
+# Synthetic Circle Clustering Analysis
 
 ## 📌 Project Overview
 
